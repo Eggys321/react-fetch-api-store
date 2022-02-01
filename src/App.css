@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+body {
+  background-color: black;
+}
+
+.text {
+  background-color: black;
+  max-width: 50%;
+  border: solid red 5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+  color: yellow;
+  margin: 0 20px;
+}
+
+h4 {
+  display: inline-block;
+  width: 20%;
+  height: 150px;
+  background-color: burlywood;
+  padding: 20px;
+  margin: 5px 80px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
